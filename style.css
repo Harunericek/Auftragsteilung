@@ -1,0 +1,80 @@
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.headerTitle, h2 {
+  box-shadow: 7px 5px 5px black;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+.auftragsTeilung, .auftragsZeiten {
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+div {
+  transition-duration: 300ms;
+}
+
+.container {
+  border-top: solid 1px;
+  border-left: solid 1px;
+  border-bottom: solid 1px;
+  background-image: linear-gradient(135deg, lightgrey, grey);
+  box-shadow: 10px 8px 8px grey;
+  border-radius: 10px;
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+input {
+  width: 80px;
+  text-align: center;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  gap: 5px;
+}
+
+.Löschen {
+  margin-top: 3px;
+}
+
+.card-header {
+  filter: opacity(80%);
+}
+
+.cardAni {
+  filter: opacity(100%);
+  transform: translateY(-3%) scale(105%);
+}
+
+.cardBodyOne {
+  display: none;
+}
+
+.cardBodyTwo {
+  display: none;
+}
+
+.cardBodyThree {
+  display: none;
+}
+
+
+
+
+
+
